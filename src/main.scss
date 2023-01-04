@@ -1,0 +1,104 @@
+// fichier de variables custom
+@import "./includes/styles";
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+//CUSTOM CSS
+
+body {
+  font-family: 'Regular', cursive;
+}
+
+.tel {
+  font-style: italic;
+  color: #353535;
+}
+
+.lineno {
+  margin: 35px;
+  font-size: medium;
+  color: #353535;
+}
+
+.lineno:hover {
+  color: #BCAE97;
+}
+
+.carda {
+  text-align: center;
+}
+
+.topbottom {
+  height: 100px;
+}
+
+
+.titre {
+  letter-spacing: 10px;
+  margin-bottom: 75px;
+}
+
+.accessories {
+  align-items: center;
+  margin: auto;
+  height: auto;
+  top: -100px;
+  position: relative;
+
+}
+
+.plusensavoir {
+  color: white;
+  padding: 5px 15px;
+}
+
+.ensavoirplus {
+  margin-left: auto;
+  padding-right: 0;
+  margin-right: 0px;
+}
+
+.card-text {
+  font-weight: bold;
+  margin: 20px;
+
+}
+
+.cardtxt {
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  .cardright {
+    margin-left: 200px;
+    margin-top: -200px;
+
+  }
+}
+
+.cardright {
+  translate: -200px 150px;
+  margin-bottom: 150px;
+}
+
+.basdepage {
+  background-image: url("public/assets/images/maps.png");
+}
+
+.txtencart {
+  height: 150px;
+}
+
+.Apropos {
+  padding-top: 150px;
+  margin-top: 50px;
+}
+
+.Apropos, .propos {
+  max-width: content-box;
+}
+
+.boucleoreille {
+  translate: 50px -50px;
+}
